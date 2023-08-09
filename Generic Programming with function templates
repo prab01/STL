@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+template <typename T>
+T Min(T a,T b)
+{
+    return (a<b) ? a : b;
+}
+
+
+using namespace std;
+
+int main()
+{
+    cout<<Min<int>(30,20)<<endl;
+    cout<<Min<float>(32.2,20.2)<<endl;
+    cout<<Min<char>('A','B')<<endl;
+    cout<<Min(10,20)<<endl;
+    return 0;
+}
