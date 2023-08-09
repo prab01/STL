@@ -1,0 +1,14 @@
+
+#include <iostream>
+
+#define MAX(a,b) ((a>b) ? a:b)
+
+
+using namespace std;
+
+int main()
+{
+    cout<<MAX(30,20)<<endl;
+    cout<<MAX(32.2,20.2)<<endl;
+    return 0;
+}
