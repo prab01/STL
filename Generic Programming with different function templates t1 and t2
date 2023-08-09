@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+template < typename T1, typename T2 > 
+void func (T1 a, T2 b)
+{
+  cout << a << " " << b << endl;
+}
+
+int main ()
+{
+  func (10, 12.2);
+  func ('A', 12.34);
+  func < int, double >(12, 13.245);
+  func < int, string > (10, "Prabin");
+  func (1, "Prakash");
+  return 0;
+}
