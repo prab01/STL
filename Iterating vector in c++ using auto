@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include<vector>
+using namespace std;
+
+int main()
+{
+    
+    int n=3;
+    int a=10;
+    
+    vector<int> v(n,a);
+    for(auto i=v.begin();i!=v.end();i++)
+    {
+        cout<<(*i)<<" ";
+    }
+    
+    return 0;
+}
